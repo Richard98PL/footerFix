@@ -1,0 +1,418 @@
+<style>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+  
+     <style type="text/css">
+       @media (prefers-color-scheme: dark ) {
+         .darkmode { border-color: #CB3E5C !important; }
+       }
+      [data-ogsc] .darkmode { border-color: #CB3E5C !important; }
+      [data-ogsb] .darkmode { border-color: #CB3E5C !important; }
+     </style>
+  
+     <style type="text/css">
+       
+        @media only screen and (min-width: 641px) {
+        p.recommendation{
+          font-size:14px;
+        }
+        div.recommendation{
+          font-size:14px;
+          width:100% !important;
+        }
+          img.recommendation{width:470px !important;}
+          td.innertd > a {width:240px !important;}
+      }
+
+        @media only screen and (max-width: 640px) {
+        p.recommendation{
+          font-size:14px;
+        }
+        div.recommendation{
+          font-size:14px;
+          width:100% !important;
+        }
+        img.recommendation{width:100% !important;}
+        table.recommendation{width:65% !important;}
+        table.recommendationCTA{width: 320px !important;}
+        a.responsiveButton{line-height: 1.7 !important;}
+        td.innertd > a {width:187.5px !important;}
+       }
+  </style>
+    
+    <style type="text/css">
+        ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+
+        body {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0 !important;
+        }
+
+        table td {
+          border-collapse: collapse !important;
+          overflow-wrap:break-word;
+          word-wrap:break-word;
+          -ms-word-break:break-all;
+          word-break:break-word;
+        }
+      
+        table th {
+          border-collapse: collapse !important;
+          overflow-wrap:break-word;
+          word-wrap:break-word;
+          -ms-word-break:break-all;
+          word-break:break-word;
+        }
+
+        img {
+            outline: 0;
+            color: #990ae3;
+        }
+
+        a img {
+            border: none;
+        }
+
+        p {
+            margin: 1em 0;
+        }
+
+        @-ms-viewport {
+            width: device-width;
+        }
+
+        p,
+        h1,
+        h2,
+        h3 {
+            Margin: 0;
+            padding: 0;
+        }
+
+        ul li,
+        ol li {
+            mso-special-format: bullet;
+        }
+
+    </style>
+    <style type="text/css">
+        @media only screen and (max-width: 640px) {
+            .container {
+                width: 100% !important;
+            }
+            .footer {
+                width: auto !important;
+                margin-left: 0;
+            }
+            .content-padding {
+                padding: 4px !important;
+            }
+            .mobile-hidden {
+                display: none !important;
+            }
+            .logo {
+                display: block !important;
+                padding: 0 !important;
+            }
+            img {
+                max-width: 100% !important;
+                height: auto !important;
+                max-height: auto !important;
+            }
+            .header img {
+                max-width: 100% !important;
+                height: auto !important;
+                max-height: auto !important;
+            }
+            .photo img {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+            }
+            .drop {
+                display: block !important;
+                width: 100% !important;
+                float: left;
+                clear: both;
+            }
+            .footerlogo {
+                display: block !important;
+                width: 100% !important;
+                padding-top: 15px;
+                float: left;
+                clear: both;
+            }
+            .nav4,
+            .nav5,
+            .nav6 {
+                display: none !important;
+            }
+            .tableBlock {
+                width: 100% !important;
+            }
+            .responsive-td {
+                width: 100% !important;
+                display: block !important;
+                padding: 0 !important;
+            }
+            .four-col td {
+                padding: 1px !important;
+            }
+            .four-col img {
+                width: 100% !important;
+            }
+            .fluid,
+            .fluid-centered {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            .side-padding {
+                padding-left: 12px !important;
+                padding-right: 12px !important;
+                box-sizing: border-box !important;
+            }
+            /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+            body,
+            .tb_properties {
+                font-family: Arial !important;
+                font-size: 14px !important;
+                color: #000000 !important;
+                line-height: 1.5 !important;
+                padding-top: 0px !important;
+                padding-right: 0px !important;
+                padding-bottom: 0px !important;
+                padding-left: 0px !important;
+            }
+            .buttonstyles {
+                
+            }
+            h1 {
+                Margin: 0;
+                padding: 0;
+                font-family: Arial !important;
+                font-size: 22px !important;
+                color: #990AE3 !important;
+                line-height: 1.15 !important;
+            }
+            h2 {
+                Margin: 0;
+                padding: 0;
+                font-family: Arial !important;
+                font-size: 20px !important;
+                color: #000000 !important;
+                line-height: 1.15 !important;
+            }
+            h3 {
+                Margin: 0;
+                padding: 0;
+                font-family: Arial !important;
+                font-size: 18px !important;
+                color: #000000 !important;
+                line-height: 1.15 !important;
+            }
+            a:not(.buttonstyles) {
+                line-height: 1 !important;
+            }
+            .mobile-hidden {
+                display: none !important;
+            }
+            .mobile-center {
+                text-align:center!important;
+                margin:auto!important;
+            }
+            /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        }
+
+        @media only screen and (max-width: 640px) {
+            .container {
+                width: 100% !important;
+            }
+            .mobile-hidden {
+              display: none !important;
+            }
+            .mobile-display {
+              display:initial !important;
+          }
+            .logo {
+                display: block !important;
+                padding: 0 !important;
+            }
+            .photo img {
+                width: 100% !important;
+                height: auto !important;
+            }
+            .nav5,
+            .nav6 {
+                display: none !important;
+            }
+            .fluid,
+            .fluid-centered {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+        }
+        @media only screen and (min-width: 641px) {
+          .desktop-hidden {
+            display:none !important;
+          }
+       }
+
+    </style>
+    <!--[if gte mso 9]>
+    <style>
+      li {text-align:-webkit-match-parent; display:list-item;text-indent: -1em;}
+      #icon-display-none {display:none !important;}
+    </style>
+    <![endif]-->
+    <!--[if mso]>
+<style type="text/css">
+/* Begin Outlook Font Fix */
+              body, table, td {
+                 font-family : Arial, helvetica, sans-serif;
+                 line-height : 100%;
+                 font-size : 16px;
+                 color : #000000;
+              }
+/* End Outlook Font Fix */
+#icon-display-none {display:none !important;}
+</style>
+<![endif]-->
+</head>
+
+<body bgcolor="#F0F0F0" text="#25414D" style="margin: 0px; ; -webkit-text-size-adjust:none; padding-top : 10px; padding-right : 20px; padding-bottom : 20px; padding-left : 20px;background-color : #F0F0F0; font-family : Arial, helvetica, sans-serif; line-height : 100%; font-size : 16px; color : #000000; padding : 0px; ">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr>
+            <td align="center">
+                <table cellspacing="0" cellpadding="0" border="0" width="640" class="container" align="center">
+                    <tr>
+                        <td>
+                            <table style="background-color : #FFFFFF; border : 0px;font-size : 16px; font-family : Arial, helvetica, sans-serif; line-height : 100%; color : #000000; " class="tb_properties border_style" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" width="100%">
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td class="content_padding" style="border:0px;padding-top : 0px; padding-right : 0px; padding-bottom : 0px; padding-left : 0px;padding : 0px 0px 0px 0px; ">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                        <tr>
+                                                            <td align="left" class="header" valign="top">
+                                                                <div data-type="slot" data-key="e16dfg5ng4akq7nce889jgiudi" data-label="Drop blocks or content here">
+
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                      <!-- Full Width Hero Image -->
+                                                      <tr>
+                                                        <td class="banner" align="center">
+                                                          <div data-type="slot" data-key="pqb6ps533r" data-label="Drop blocks or content here"></div>
+                                                        </td>
+                                                      </tr>
+                                                      <!-- 1 slot column -->
+                                                        <tr>
+                                                            <td align="left" class="" valign="top" style="padding-left:0px; padding-right:0px;padding-top:20px;padding-bottom:20px;">
+                                                                <div data-type="slot" data-key="i6x5km8j8d9" data-label="Drop blocks or content here"></div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                       
+                                                     
+                                                     
+                                                        <tr>
+                                                            <td align="left" class="" valign="top">
+                                                                <div data-type="slot" data-key="fd4fz9z0aws" data-label="Drop blocks or content here"></div>
+                                                            </td>
+                                                        </tr>
+
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <custom name="opencounter" type="tracking" />
+</body>
+
+</html>
+
+</style>
+<table cellpadding="0" cellspacing="0" style="width:100%" width="100%">
+ 
+    <tr>
+     <td style="font-size:12px;line-height:18px;font-family:Arial,Helvetica,sans-serif;color:#bfc8cc;padding-left:20px;padding-right:10px;">
+      <!-- &copy; 2019 YIT Suomi Oy<br>Osoite: PL 36, Panuntie 11, 00621 Helsinki<br> -->&copy; %%xtyear%% %%Member_Busname%%<br>
+      Osoite: <a href="" style="color:#bfc8cc; text-decoration:none;"><span style="color:#bfc8cc;text-decoration:none;"><font color="#bfc8cc">%%Member_Addr%%, %%Member_PostalCode%%, %%Member_City%%, %%Member_State%%.</font></span></a><br>
+      Rekisteril&auml;hde: <a alias="asiakasrekisteri" conversion="false" data-linkto="https://" href="https://www.yit.fi/tietosuoja-ja-kayttoehdot/yksityisasiakkaiden-rekisteriseloste" style="color:#009FDA;text-decoration:none;" title="">YIT:n asiakasrekisteri</a></td><td align="right" class="mobile-hidden" valign="top">
+      <a alias="logo icon footer" alt="Yit Asunnot" conversion="false" data-linkto="https://" href="https://www.yit.fi/asunnot/myytavat-asunnot?utm_source=salesforce-mc&utm_medium=email&utm_campaign=customers_retargeting_newsletter&utm_term=text-img&utm_content=footer" title=""><img alt="Yit Asunnot" src="https://image.yit-info.com/lib/fe3f11717564047d751777/m/1/f660d425-02e5-453a-8c18-d6b9359a7e41.png"></a></td></tr></table><table>
+   
+    <tr>
+     <td style="font-size:12px;line-height:18px;font-family:Arial,Helvetica,sans-serif;color:#bfc8cc;padding-left:20px;padding-right:10px;padding-top:20px;">
+      Jos et halua jatkossa s&auml;hk&ouml;postia YIT Kodeista, <a href="%%profile_center_url%%" style="color:#009FDA; text-decoration:none;display:none;">klikkaa t&auml;st&auml;</a><a alias="Opt-out" conversion="false" data-linkto="other" href="%%=RedirectTo(CloudPagesURL(318))=%%" style="color:#009FDA;text-decoration:none;" title="klikkaa tästä.">klikkaa t&auml;st&auml;</a>.<br>
+      Jos haluat p&auml;ivitt&auml;&auml; yhteystietojasi, ota yhteytt&auml; <a alias="YIT Asuntomyyntiin" conversion="false" data-linkto="https://" href="https://www.yit.fi/ota-yhteytta/asuminen?utm_source=salesforce-mc&utm_medium=email&utm_campaign=customers_retargeting_newsletter&utm_term=text-link&utm_content=footer" style="color:#009FDA;text-decoration:none;" title="YIT Asuntomyyntiin">YIT Asuntomyyntiin</a>.</td></tr>
+        
+        
+        <tr id="icon-display-none" style="padding-top:20px;">
+     <td id="icon-display-none" style="font-size:12px;line-height:18px;font-family:Arial,Helvetica,sans-serif;color:#bfc8cc;padding-left:20px;padding-top:20px;">
+      <table>
+       
+        <tr>
+         <td>
+          <table align="center" border="0" cellpadding="0" cellspacing="0">
+           
+            <tr>
+             <td align="left" id="fb_img" pardot-region="fb" style="width:23px; font-size:0px; line-height:0px;" valign="middle" width="23">
+              <a href="https://www.facebook.com/YitKoti/" style="text-decoration:none;" target="_blank"><img alt="fb" border="0" src="https://go.yit.fi/l/160011/2018-09-10/xckds/160011/61455/master_fb.png" style="display:block; max-width:23px; font-size:12px; font-family:Arial, sans-serif; color:#ffffff; line-height:15px;" width="23"> </a></td><td style="width:12px;" width="12">
+              &nbsp;</td><td align="left" id="tw_img" pardot-region="tw" style="width:23px; font-size:0px; line-height:0px;" valign="middle" width="23">
+              <a href="https://twitter.com/yitsuomi" style="text-decoration:none;" target="_blank"><img alt="tw" border="0" src="https://go.yit.fi/l/160011/2018-09-10/xckcz/160011/61431/master_tw.png" style="display:block; max-width:23px; font-size:12px; font-family:Arial, sans-serif; color:#ffffff; line-height:15px;" width="23"> </a></td><td style="width:12px;" width="12">
+              &nbsp;</td><td align="left" id="ln_img" pardot-region="in" style="width:23px; font-size:0px; line-height:0px;" valign="middle" width="23">
+              <a href="https://www.linkedin.com/company/yit/" style="text-decoration:none;" target="_blank"><img alt="In" border="0" src="https://go.yit.fi/l/160011/2018-09-10/xckd4/160011/61435/master_ln.png" style="display:block; max-width:23px; font-size:12px; font-family:Arial, sans-serif; color:#ffffff; line-height:15px;" width="23"> </a></td><td style="width:12px;" width="12">
+              &nbsp;</td><td align="left" id="yt_img" pardot-region="yt" style="width:23px; font-size:0px; line-height:0px;" valign="middle" width="23">
+              <a href="https://www.youtube.com/user/YITkoti" style="text-decoration:none;" target="_blank"><img alt="yt" border="0" src="https://go.yit.fi/l/160011/2018-09-10/xckcs/160011/61425/master_yt.png" style="display:block; max-width:23px; font-size:12px; font-family:Arial, sans-serif; color:#ffffff; line-height:15px;" width="23"> </a></td></tr></table></td></tr></table></td>
+        
+        
+        <td class="desktop-hidden" id="icon-display-none" style="font-size:12px;line-height:18px;font-family:Arial,Helvetica,sans-serif;color:#bfc8cc;padding-left:25px;padding-top:20px;">
+      <a alias="logo icon footer" alt="Yit Asunnot" conversion="false" data-linkto="https://" href="https://www.yit.fi/asunnot/myytavat-asunnot?utm_source=salesforce-mc&utm_medium=email&utm_campaign=customers_retargeting_newsletter&utm_term=text-img&utm_content=footer" title=""><img alt="Yit Asunnot" src="https://image.yit-info.com/lib/fe3f11717564047d751777/m/1/f660d425-02e5-453a-8c18-d6b9359a7e41.png"></a></td>
+        
+        
+        </tr></table>
